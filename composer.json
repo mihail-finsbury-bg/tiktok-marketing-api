@@ -7,6 +7,10 @@
         {
             "name": "Dmitry Gladyshev",
             "email": "dgladyshev@promopult.ru"
+        },
+        {
+            "name": "Mihail Ivanov",
+            "email": "mihail.ivanov@finsburymedia.com"
         }
     ],
     "minimum-stability": "dev",
