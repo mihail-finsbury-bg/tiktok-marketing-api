@@ -23,6 +23,7 @@ use Psr\Http\Client\ClientInterface;
  * @property Service\Images $images
  * @property Service\Video $video
  * @property Service\SparkAd $sparkAd
+ * @property Service\Identity $identity
  */
 final class Client implements ServiceFactoryInterface
 {
