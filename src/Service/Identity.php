@@ -35,7 +35,7 @@ final class Identity extends AbstractService
             '/open_api/v1.3/identity/video/info/',
             [
                 'advertiser_id' => $advertiserId,
-                'indetityType' => $indetityType,
+                'identity_type' => $indetityType,
                 'identity_id' => $indetityId,
                 'item_id' => $itemId,
             ]
