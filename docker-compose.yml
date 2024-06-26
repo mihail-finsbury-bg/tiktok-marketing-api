@@ -1,0 +1,18 @@
+version: "3.6"
+services:
+  php:
+    container_name: tittok-marketing-api-php
+    build:
+      context: .
+      dockerfile: ./docker/php/Dockerfile
+    dns:
+      - 8.8.8.8
+      - 8.8.4.4
+    networks:
+      - tittok-marketing-api-network
+    volumes:
+      - .:/var/www/application:cached
+
+networks:
+  tittok-marketing-api-network:
+    driver: bridge
